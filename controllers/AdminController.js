@@ -167,12 +167,12 @@ exports.updateBlog = async (req, res) => {
     if (images.photo1 != undefined) {
       if (images?.photo1[0]?.filename) {
         console.log("images.photo1[0].filename", images.photo1[0].filename);
-        data.img1 = `https://defiant-newt-suspenders.cyclic.app/photo/${images.photo1[0].filename}`;
+  data.img1 = `https://instabackend-production.up.railway.app/photo/${images.photo1[0].filename}`;
       }
     }
     if (images.photo2 != undefined) {
       if (images?.photo2[0]?.filename) {
-        data.img2 = `https://defiant-newt-suspenders.cyclic.app/photo/${images.photo2[0].filename}`;
+  data.img2 = `https://instabackend-production.up.railway.app/photo/${images.photo2[0].filename}`;
       }
     }
 
